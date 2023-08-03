@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: Development
-      url: ${{ steps.deployment.outputs.page_url }} + "dev"
+      url: https://ximon-x.github.io/results-summary-dev/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
