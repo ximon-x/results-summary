@@ -1,15 +1,9 @@
 function App() {
   return (
-    <div>
-      <header>
-        <h1 className="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">
-          Hello World
-        </h1>
-      </header>
-
-      <main className="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3"></main>
-
-      <footer></footer>
+    <div className="flex justify-center items-center w-screen h-screen">
+      <main className="w-80 p-80 bg-gray-200 rounded-3xl">
+        <h1>Hello World</h1>
+      </main>
     </div>
   );
 }
